@@ -27,7 +27,9 @@ passwordGeneratorForm.addEventListener("submit", e => {
   // const includeSymbols =
   // get a password variable from a function
   const password = generatePassword(
-    characterAmount,
+    characterAmount, // pull these variables out by assigning them a variable
+    // const characterAmountNumber = document.getElementById("characterAmountNumber");
+    // const characterAmount = characterAmountNumber.value;
     includeUppercase,
     includeNumbers,
     includeSymbols
